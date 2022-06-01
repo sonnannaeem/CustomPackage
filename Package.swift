@@ -27,6 +27,8 @@ let package = Package(
         .testTarget(
             name: "CustomPackageTests",
             dependencies: ["CustomPackage"]),
-        .binaryTarget(name: "CustomFramework", path: "./Sources/CustomFramework.xcframework")
+        .binaryTarget(
+            name: "CustomFramework",
+            path: "./Sources/CustomFramework.xcframework")
     ]
 )
