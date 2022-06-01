@@ -1,7 +1,7 @@
 public struct CustomPackage {
-    public private(set) var text = "Hello, World!"
+    public var text = "YES - OPEN SOURCE FILE RUNS"
 
-    public init() {
+    public func doIRun() {
         print(text)
     }
 }
