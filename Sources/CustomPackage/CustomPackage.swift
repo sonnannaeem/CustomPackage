@@ -1,7 +1,8 @@
-public struct CustomPackage {
-    public var text = "YES - OPEN SOURCE FILE RUNS"
+import Foundation
 
-    public func doIRun() {
-        print(text)
+public struct CustomPackage {
+
+    public static func doIRun() {
+        print("YES - OPEN SOURCE FILE RUNS")
     }
 }
